@@ -43,7 +43,7 @@
           # Wasm toolchain
           pkgs.wabt
           pkgs.wasmer
-          pkgs.wasm3
+          #pkgs.wasm3
         ];
       };
     });

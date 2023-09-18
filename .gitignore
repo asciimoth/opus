@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 /.direnv
+
+/.pre-commit-config.yaml
