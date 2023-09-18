@@ -25,6 +25,8 @@
             src = ./.;
             hooks = {
               alejandra.enable = true;
+              black.enable = true;
+              mypy.enable = true;
             };
           };
         };
@@ -35,6 +37,7 @@
             # Python toolchain
             pkgs.poetry
             pkgs.mypy
+            pkgs.black
             # Command runner
             pkgs.just
             # CLI hex files viewer

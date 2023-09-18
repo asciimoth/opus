@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "opus"
+version = "0.1.0"
+description = ""
+authors = ["AsciiMoth <ascii@moth.contact>"]
+readme = "README.md"
+packages = [{include = "opus", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
