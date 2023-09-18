@@ -1,3 +1,6 @@
+import src.opus.lexer as lexer
+
+
 def helloworld():
     return "Hello World"
 
